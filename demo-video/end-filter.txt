@@ -1,0 +1,1 @@
+drawtext=fontfile=C\\:/Windows/Fonts/segoeuib.ttf:text=Scores come from the simulator:fontsize=36:fontcolor=0xE6EEF8:x=(w-text_w)/2:y=(h/2)-36,drawtext=fontfile=C\\:/Windows/Fonts/segoeui.ttf:text=This is a stored replay\, not a live search.:fontsize=26:fontcolor=0x93A4BD:x=(w-text_w)/2:y=(h/2)+18

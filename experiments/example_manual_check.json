@@ -1,0 +1,28 @@
+{
+  "design": {
+    "jaw_opening_mm": 60,
+    "finger_length_mm": 50,
+    "pad_width_mm": 15,
+    "stiffness_n_per_mm": 40,
+    "actuator_force_n": 30
+  },
+  "scenario": {
+    "object_mass_kg": 0.5,
+    "object_width_mm": 40,
+    "friction": 0.5,
+    "lateral_disturbance_n": 2,
+    "safety_factor": 1.5,
+    "id": "manual-check"
+  },
+  "expected": {
+    "feasible": true,
+    "geometry_ok": true,
+    "engagement": 1,
+    "deflection_scale": 1,
+    "required_force_n": 7.945615536256459,
+    "friction_capacity_n": 30,
+    "margin_n": 22.054384463743542,
+    "deflection_mm": 1.4648437500000002,
+    "material_proxy": 94.86832980505139
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "extends": "next/core-web-vitals",
+  "overrides": [
+    {
+      "files": ["components/lab/**/*.tsx"],
+      "rules": { "react/no-unknown-property": "off" }
+    }
+  ]
+}

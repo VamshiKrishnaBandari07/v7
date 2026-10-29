@@ -1,0 +1,20 @@
+{
+  "domain": "gripper_2d",
+  "seed": 42,
+  "budget": {
+    "total_simulator_calls": 1200,
+    "adversarial_fraction": 0.2,
+    "playback_ms": 0
+  },
+  "design_bounds": {
+    "jaw_opening_mm": [25, 90],
+    "finger_length_mm": [20, 80],
+    "pad_width_mm": [5, 30],
+    "stiffness_n_per_mm": [1, 40],
+    "actuator_force_n": [5, 80]
+  },
+  "scenarios": {"train_count": 8, "holdout_count": 24},
+  "objectives": ["grip_success", "material_proxy"],
+  "model_provider": "mock",
+  "note": "Illustrative engineering bounds for the surrogate. They are not a physical gripper rating. Train count is the number of scenarios scored per design so the call budget can fund several generations."
+}
